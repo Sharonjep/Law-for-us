@@ -1,0 +1,16 @@
+body,html,h1,h2,h3,h4,h5,h6,p,div,a{
+    margin:0;
+    padding:0;
+}
+*{
+    text-decoration:none;
+}
+.nav{
+    align-items:center;
+    justify-content:space-between;
+}
+.nav:hover{
+    border:1px solid #f44336;
+    background:#f44336;
+    transition:1s;
+}

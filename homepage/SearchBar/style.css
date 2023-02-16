@@ -1,0 +1,27 @@
+*{
+    font-size:1.5rem;
+}
+.input-wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:500px;
+    background-color:#e26d;
+    padding:0.5rem;
+    border-radius:0.5rem;
+    color:white;
+    box-shadow:0.25rem 0.25rem 0rem rgba(236, 127, 164, 0.336)
+}
+.input{
+    margin-left:0.5rem;
+    margin-right:0.5rem;
+    width:100%;
+    border:none;
+    outline:none;
+    color:white;
+}
+::placeholder{
+
+     background-color:#e26d;
+     border-radius:0.5rem;
+}
